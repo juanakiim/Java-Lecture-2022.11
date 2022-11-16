@@ -186,7 +186,7 @@ JOIN country AS r
 ON l.CountryCode = r.Code
 WHERE r.Continent = 'Asia'
 ORDER BY l.Population
-LIMIT 10; 
+LIMIT 10;
 
 # 우리나라의 공식언어는 ? 
 SELECT `Language`, CountryCode FROM countrylanguage
